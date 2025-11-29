@@ -43,7 +43,7 @@ class ListProduits extends StatelessWidget {
               ),
               subtitle: Text("${produit.prix} \$"),
               trailing: ElevatedButton(
-                child: const Text("Voir"),
+                child: const Text("rouge"),
                 onPressed: () {
                   Navigator.push(
                     context,
